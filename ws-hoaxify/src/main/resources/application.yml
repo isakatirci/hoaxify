@@ -1,0 +1,11 @@
+spring:
+  datasource:
+    url: jdbc:h2:./devdb
+  jpa:
+    hibernate:
+      ddl-auto: update
+#    properties:
+#      javax:
+#        persistence:
+#          validation:
+#            mode: none
